@@ -1,7 +1,6 @@
 import { useNavigate } from "react-router-dom"
 import Header from "../../components/Header/Header"
 import Sidebar from '../../components/Menu/Sidebar'
-import logo from '../../assets/images/home.png'
 import UsuarioService from "../../services/UsuarioService"
 import { useEffect, useState } from "react"
 
@@ -45,13 +44,14 @@ const UsuariosLista = () => {
                         <table className="table table-striped table-hover">
                             <thead>
                                 <tr>
-                                    <th scope="col">ID</th>
-                                    <th scope="col">Nome</th>
-                                    <th scope="col">Email</th>
-                                    <th scope="col">Acesso</th>
-                                    <th scope="col">Cadastro</th>
-                                    <th scope="col">Status</th>
-                                    <th scope="col">Abrir</th>
+                                <th scope="col">ID</th>
+                                    <th scope="col">RM</th>
+                                    <th scope="col">NOME</th>
+                                    <th scope="col">EMAIL</th>
+                                    <th scope="col">SENHA</th>
+                                    <th scope="col">NÍVEL ACESSO</th>
+                                    <th scope="col">DATA CADASTRO</th>
+                                    <th scope="col">STATUS USÁRIO</th>
                                 </tr>
                             </thead>
                             <tbody>

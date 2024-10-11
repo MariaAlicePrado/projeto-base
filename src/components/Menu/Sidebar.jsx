@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import './Sidebar.css';
-import logo from '../../assets/images/system-logo_24_x_24.png';
+import logo from './logo.png';
 
 const Sidebar = () => {
 
@@ -12,7 +12,6 @@ const Sidebar = () => {
             </div>
 
             <nav className="nav flex-column">
-                <Link className="nav-link" aria-current="page" to={'/home'}>Dashboard</Link>
                 <Link className="nav-link" to={'/mensagem'}>Mensagem</Link>
                 <Link className="nav-link" to={'/usuario'}>Usuário</Link>
             </nav>
