@@ -20,7 +20,7 @@ const Login = () => {
             <div className="login-container">
                 <div className="card">
                     <div className="logo-container">
-                        <img className="logo" src={logo} alt="Logo da Empresa" />
+                        <img className="logo" src={} alt="Logo da Empresa" />
                     </div>
                     <form className="login-form" onSubmit={handleSubmit}>
                         <input
@@ -29,7 +29,7 @@ const Login = () => {
                             placeholder="RM do Usuário"
                             required
                             value={username}
-                            onChange={(e) => setUsername(e.target.value)}
+                            onChange={(e) => setUsername(e.target.)}
                         />
                         <input
                             type="password"
@@ -39,9 +39,9 @@ const Login = () => {
                             title="Por favor, digite apenas números"
                             required
                             value={password}
-                            onChange={(e) => setPassword(e.target.value)}
+                            onChange={(e) => setPassword(e..value)}
                         />
-                        <button type="submit">Entrar</button>
+                        <button type="submit">Entrar</button
                     </form>
                 </div>
             </div>
@@ -49,4 +49,4 @@ const Login = () => {
     );
 }
 
-export default Login;
+export default Logi;
